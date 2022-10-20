@@ -2,7 +2,7 @@
 include('functions.php');
 include "message/inbox_functions.php";
 include "top_functions.php";
-$g;
+$g; //nothing
 $top = new top();
 
 if (!isset($_SESSION['username'])) {
